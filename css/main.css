@@ -83,10 +83,44 @@ footer {
 figure {
   float: right;
   width: 300px;
-  padding-left: 6px;
-
+  padding-top: 6px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin: 0;
+  margin-right: -150px;
+  margin-left: 6px;
 }
 
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: .4em .2em;
+  color: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin-bottom: -5px;
+  margin-top: -1px;
+  margin-left: -100px;
+}
+
+main > p:first-child::first-letter {
+  background-color: #666;
+  color: #fff;
+  font-size: 5rem;
+  font-style: normal;
+  float: left;
+  padding: 6px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin-right: 7px;
+}
 /*
  ##########################################################
  END DO NOT CHANGE ZONE

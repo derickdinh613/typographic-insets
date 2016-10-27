@@ -107,7 +107,7 @@ blockquote {
   border-bottom: 3px solid #333;
   margin-bottom: -5px;
   margin-top: -1px;
-  margin-left: -100px;
+  margin-left: -99px;
 }
 
 main > p:first-child::first-letter {

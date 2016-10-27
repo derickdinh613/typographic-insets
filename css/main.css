@@ -80,6 +80,13 @@ footer {
   color: #f2f2f2;
 }
 
+figure {
+  float: right;
+  width: 300px;
+  padding-left: 6px;
+
+}
+
 /*
  ##########################################################
  END DO NOT CHANGE ZONE
